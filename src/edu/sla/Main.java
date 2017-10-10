@@ -11,23 +11,6 @@ import javafx.scene.control.Button;
 import java.util.Objects;
 
 public class Main extends Application{
-
-//    public void start(Stage primaryStage) throws Exception {
-//        String emote = ("happy");
-//        KeyCombination a = new KeyCodeCombination (KeyCode.ENTER);
-//        TextField emotionField = new TextField();
-//        emotionField.setPromptText("Enter an emotion.");
-//        Group emot = new Group();
-//        emot.getChildren().addAll(emotionField);
-//        Scene scene1 = new Scene(emot,400,400);
-//        primaryStage.setScene(scene1);
-//        primaryStage.setTitle("Chat Bot");
-//        primaryStage.show();
-//        scene1.setOnKeyPressed(ke -> (
-//                emote = emotionField.getText()
-//                        ))
-//
-//    }
     public void start (Stage primaryStage) throws Exception {
         Label question = new Label("How are you feeling?");
         TextField input = new TextField ();
