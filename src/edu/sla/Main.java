@@ -24,21 +24,29 @@ public class Main extends Application{
         submit.setOnAction((e) -> {
             if (input.getText() != null) {
                 if (Objects.equals(input.getText(), "happy")) {
-                    output.setText("I'm glad! I'm happy too."); }
+                    output.setText("Are you as happy as a enemy conquering plant?"); }
+                if (Objects.equals(input.getText(), "content")) {
+                    output.setText("Are you as happy as a enemy conquering plant?"); }
                 if (Objects.equals(input.getText(), "sad")) {
-                    output.setText("That sucks, may I interest you in a cat picture?"); }
+                    output.setText("Like a plant who doesn't have a sense of self?"); }
+                if (Objects.equals(input.getText(), "upset")) {
+                    output.setText("Like a plant who doesn't have a sense of self?"); }
                 if (Objects.equals(input.getText(), "angry")) {
-                    output.setText("Not at me, I hope!"); }
+                    output.setText("I feel you, man. A dandelion is on my territory."); }
+                if (Objects.equals(input.getText(), "mad")) {
+                    output.setText("I feel you, man. A dandelion is on my territory."); }
+                if (Objects.equals(input.getText(), "frustrated")) {
+                    output.setText("I feel you, man. A dandelion is on my territory."); }
                 if (Objects.equals(input.getText(), "gross")) {
-                    output.setText("Try taking a shower and getting some rest."); }
+                    output.setText("Hopefully not as bad as the soil I'm planted in."); }
                 if (Objects.equals(input.getText(), "scared")) {
-                    output.setText("Oh dear."); }
+                    output.setText("I'm scared, too. Of sentient plants."); }
             }
         });
         layout.getChildren().addAll(prompt,submit,output);
         Group s1 = new Group();
         s1.getChildren().addAll(layout);
-        Scene scene1 = new Scene(s1,310,400);
+        Scene scene1 = new Scene(s1,310,100);
         primaryStage.setScene(scene1);
         primaryStage.setTitle("fvhvbkbd");
         primaryStage.show();
